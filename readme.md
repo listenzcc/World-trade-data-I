@@ -122,8 +122,9 @@ the significant countries are Germany, United States, China, Korea. Rep, India, 
 
 Moreover, I also analysis the links between countries.
 The links between countries are computed for every two countries,
-the values are the sum of the trading volume between the two countries.
-The links are shown in the sparse matrix
+the values are the times of being the trading partnership between the two countries.
+The links are shown in the sparse matrix,
+and the values in the graph are in logarithmic.
 
 ![links](doc/country-links-raw.png "links")
 
