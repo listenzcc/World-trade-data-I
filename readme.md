@@ -4,7 +4,7 @@ Two opinions raise by the analysis
 
 -   Every country trade with limited other countries.
     And there are not any country expanding to every other country.
--   The world has only little countries that dominates the international trading.
+-   The world has only little countries that dominate the international trading.
 
 ---
 
@@ -50,7 +50,7 @@ and it produces the sorted data as following dataframe
 ## Trading partnership in Sankey Diagram
 
 Based on the dataframe,
-I analysis the international trading partnership,
+I compute the international trading partnership,
 and display them with Sankey Diagram.
 
 ![Sankey](doc/sankey.png "Sankey")
@@ -97,7 +97,7 @@ Thus, I reach my first opinion
 
 My next question raises,
 
-> Is there any country important?
+> Is there any country significant?
 
 To answer the question,
 I play the Sankey analysis for every country,
@@ -106,7 +106,7 @@ and produce the degree map for the countries
 ![degree-map](doc/degree-map.png "degree-map")
 
 The degrees represent the times of the country being visited.
-The degree1 is the times as source country,
+The degree1 is the times as the source country,
 and the degree2 is the times as the target country,
 and the degree is the sum of degree1 and degree2.
 
@@ -114,7 +114,7 @@ and the degree is the sum of degree1 and degree2.
 
 The degrees are shown below.
 I consider it as the importance metric of countries,
-the important countries are Germany, United States, China, Korea. Rep, India, Hong Kong. China, United Arab Emirates, France, Japan, Singapore, Mexico, Russian Federation ....
+the significant countries are Germany, United States, China, Korea. Rep, India, Hong Kong. China, United Arab Emirates, France, Japan, Singapore, Mexico, Russian Federation ....
 
 ![degree-bar-graph](doc/degree-bar-graph.png "degree-bar-graph")
 
@@ -137,4 +137,4 @@ the most left vertical line represents China.
 
 So, I reach to my second opinion,
 
-> The world has only little countries that dominates the international trading.
+> The world has only little countries that dominate the international trading.
